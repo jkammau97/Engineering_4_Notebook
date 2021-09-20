@@ -14,5 +14,5 @@ while True:
         print("Goodbye!")
         break
     if user == '':
-        roll = str(random.randint(1,6))
+        roll = str(random.randint(1,6)) # random number from 1 to 6
         print("You rolled: " + roll)
