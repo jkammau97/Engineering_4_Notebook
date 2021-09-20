@@ -9,6 +9,7 @@ I didn't ask you to document hello_world.py or dice_roller.py. I'll start off wi
 * [Basics](#Basics)
 * [Python_Dice_Roller](#PythonDiceRoller)
 * [Python_Calculator](#Python_Calculator)
+* [Quadratic_Solver](#Quadratic_Solver)
 ---
 
 ## Basics
@@ -76,13 +77,33 @@ This assignment was relatively simple, but was challenging because I had not cod
 ### Evidence 
 Vanilla version:
 
-[<img src="https://user-images.githubusercontent.com/89222808/133513750-727cdb6c-1c27-4c8a-83d4-50ea9136a221.png" alt="placeholder" width="100" height="">](Python/automatic_dice_roller_spicy.py)
+[<img src="Media/calculator.PNG" alt="calculator.PNG" width="" height="">](Python/automatic_dice_roller.py)
 
 Spicy version:
 
-![Screenshot 2021-09-10 3 18 38 PM](https://user-images.githubusercontent.com/89222808/133513750-727cdb6c-1c27-4c8a-83d4-50ea9136a221.png)
+[<img src="Media/calculator_spicy.PNG" alt="calculator_spicy.PNG" width="" height="">](Python/automatic_dice_roller_spicy.py)
+
+### Wiring
+N/A
+
+### Reflection
+
+Had a very easy time figuring this out. Had to end up commenting my code later on.
+
+## Quadratic_Solver
+
+### Assignment Description
+
+Write your assignment description here. It should be at least a few sentences.
+
+### Evidence 
+
+Pictures / Gifs of your work should go here.  You need to communicate what your thing does. For code only assignments like the Python calculator, include a screenshot of the output of the code.
 
 ### Wiring
 
+This may not be applicable to all assignments. Anything where you wire something up, include the wiring diagram here.
 
 ### Reflection
+
+What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience?  Your ultimate goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
