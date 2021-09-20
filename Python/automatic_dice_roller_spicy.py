@@ -19,13 +19,13 @@ while True:
         sidesInt = sidesInt/sidesInt/rollsInt*rollsInt*sidesInt #just an identity, but if it equals zero it'll throw an error that I can catch
     except ValueError:
         raise print("you put in some funky values that jacked up my vibe; try again")
-        continue #restarts loop back to beginning
-    except ZeroDivisionError:
+        continue # restarts loop back to beginning
+    except ZeroDivisionError: # where I catch the zero
         print("haha look at the funny guy trying to roll a die with zero sides. TRY AGAIN!")
-        continue
+        continue # continues to next iteration
     while True:
         print("You rolled:")
-        for i in range(rollsInt):
+        for i in range(rollsInt): # Runs loop as many times as the number of rolls given
             print(str(random.randint(1,sideInt)))
         print("hit enter to roll again with the same settings, c then enter to update the options, or x then enter to exit")
         user = input()
