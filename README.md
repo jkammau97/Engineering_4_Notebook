@@ -1,6 +1,8 @@
 # Engineering_4_Notebook
 Engineering Notebook for 2021-22 school year
 
+<img src= "https://i2.wp.com/creapills.com/wp-content/uploads/2018/03/30-photos-absurdes-banques-dimages-23.jpg?resize=800%2C536&ssl=1" alt="Me when I use toilet paper rolls as binoculars" width="1000" height="70">
+
 I didn't ask you to document hello_world.py or dice_roller.py. I'll start off with an example for dice_roller.py, and then you will reflect on calculator.py.
 
 ## Table of Contents
