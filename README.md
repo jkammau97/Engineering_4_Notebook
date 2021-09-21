@@ -12,6 +12,7 @@ I didn't ask you to document hello_world.py or dice_roller.py. I'll start off wi
 * [Python_Dice_Roller](#PythonDiceRoller)
 * [Python_Calculator](#Python_Calculator)
 * [Quadratic_Solver](#Quadratic_Solver)
+* [Strings_and_Loops](#Strings_and_Loops)
 ---
 
 ## Basics
@@ -115,3 +116,26 @@ N/A
 ### Reflection
 
 Had to remind myself how lists work in python. Just used a barebones approach to them, and i'll remember more about it later. I also had a problem where the variables were strings instead of integers. Just had to convert the inputs to ints using `int()`.
+
+## Strings_and_Loops 
+
+### Assignment Description
+
+> Write a program that asks the user to type a simple sentence.  The program then takes that sentence and splits it (using the split() function) into an array of words.  The program then loops through that array of words using a for loop.  For each word, the program then loops through the letters in the word (another for loop) and prints them to the screen.  At the end of each word, the program prints a minus sign.
+> 
+> Spicy Version (Optional):
+> No additional requirements, but try to collapse your code into as few lines as possible (other than commented intro lines). You probably want to get your code working first, then look for ways to combine lines where possible. Mr. Miller's code is 4 lines long. Try to tie or beat that!
+> 
+> Note: Writing code into as few lines as possible isn't always good for code readability. In real life, you want to find a balance between being concise but understandable for other coders. For now though, this is a good challenge!
+
+### Evidence 
+
+[<img src="Media/strings_and_loops.png" alt="strings_and_loops.png" width="" height="">](Python/strings_and_loops_spicy.py)
+
+### Wiring
+
+N/A
+
+### Reflection
+
+More review. I just stole the concept for my code from [W3schools](https://www.w3schools.com/python/trypython.asp?filename=demo_for_string). It's crazy to me that it works like that, but idk if that concept works for all arrays. I didn't use split because I found that it would be extremely clunky.
