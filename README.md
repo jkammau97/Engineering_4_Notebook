@@ -96,16 +96,22 @@ Had a very easy time figuring this out. Had to end up commenting my code later o
 
 ### Assignment Description
 
-Write your assignment description here. It should be at least a few sentences.
+> Requirements for the program.  Read carefully:
+> 
+> The program sends the three coefficients to a function 
+> The function calculates the discriminant for the quadratic
+> If the discriminant is negative, the user gets a message that there are no real roots
+> If the discriminant is zero or positive, the function returns an array of the two roots.  The program then prints the two roots.  This occurs outside of the function.
+> After the roots are displayed, ask the user if they want to run another set of roots, or if they want to quit (this is similar to your previous assignment -- reuse that code!)
 
 ### Evidence 
 
-Pictures / Gifs of your work should go here.  You need to communicate what your thing does. For code only assignments like the Python calculator, include a screenshot of the output of the code.
+[<img src="Media/Quadratic.PNG" alt="Quadratic.PNG" width="" height="">](Python/quadratic_solver.py)
 
 ### Wiring
 
-This may not be applicable to all assignments. Anything where you wire something up, include the wiring diagram here.
+N/A
 
 ### Reflection
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience?  Your ultimate goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+Had to remind myself how lists work in python. Just used a barebones approach to them, and i'll remember more about it later
