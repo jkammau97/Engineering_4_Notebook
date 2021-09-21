@@ -106,7 +106,7 @@ Had a very easy time figuring this out. Had to end up commenting my code later o
 
 ### Evidence 
 
-[<img src="Media/Quadratic.PNG" alt="Quadratic.PNG" width="" height="">](Python/quadratic_solver.py)
+[<img src="Media/Quadratic.png" alt="Quadratic.png" width="" height="">](Python/quadratic_solver.py)
 
 ### Wiring
 
@@ -114,4 +114,4 @@ N/A
 
 ### Reflection
 
-Had to remind myself how lists work in python. Just used a barebones approach to them, and i'll remember more about it later
+Had to remind myself how lists work in python. Just used a barebones approach to them, and i'll remember more about it later. I also had a problem where the variables were strings instead of integers. Just had to convert the inputs to ints using `int()`.
