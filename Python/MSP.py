@@ -48,8 +48,9 @@ while True:
     
     print("Man-Shaped Pinata")
     print("Player 1, Enter a word:")
-    # word = input() #get string of word
-    word = "pineapple" #for debugging; I don't wanna enter the word every time
+    word = input() #get string of word
+    word.casefold()
+    #word = "pineapple" #for debugging; I don't wanna enter the word every time
     print('\n' * 50)
     
     print("cleared screen! don't scroll up!")
@@ -60,9 +61,17 @@ while True:
     
     for x in word:
         answerList.append('_ ')
-    
+    #gives spaces and other common non-letters as givens
+    givens = (' ', '-', '.') #this is a tuple; ordered and unchanging
+    for x in givens:
+        if x in word:
+            i = word.find(x)
+            while i > -1:
+                answerList[i] = x + " "
+                i = word.find(x, i+1)
     while True:
         printHangman(len(badGuesses)) 
+        print("Missed Guesses: " + str(badGuesses))
         if len(badGuesses) >= 7:
             print("you LOSE!")
             break
@@ -88,7 +97,7 @@ while True:
                 i = word.find(guess, i+1)
         else:
             badGuesses.add(guess)
+    print("The correct answer was: " + word)
     if input("press y then enter to play again") != 'y':
         print("exiting program...")
-        break    
-    
+        break
