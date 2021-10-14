@@ -1,3 +1,6 @@
+# Man-Shaped Pinata
+# Bob Kammauff
+# 9/30/2021
 def printHangman(triesNum): #program that prints out a man if there's an incorrect guess
     #---┐ 
     #   O 
@@ -43,13 +46,21 @@ def printHangman(triesNum): #program that prints out a man if there's an incorre
         print("   | ")
         print("  / \\")
 
+letters = "abcdefghijklmnopqrstuvwxyz"
 #Beginning
 while True:
-    
-    print("Man-Shaped Pinata")
+    boolToBreak = False #if set to true, it will go back to the beginning
+    print("Man-Shaped Pinata by Bob Kammauff")
     print("Player 1, Enter a word:")
     word = input() #get string of word
-    word.casefold()
+    word = word.casefold()
+    for x in word:
+            if x not in letters and x not in " .!?,-" :
+                print("bad word, try again")
+                boolToBreak = True #if set to true, it will go back to the beginning
+                break
+    if boolToBreak == True: #so that it can request another entry nbecause the person put a stupid one
+        continue
     #word = "pineapple" #for debugging; I don't wanna enter the word every time
     print('\n' * 50)
     
@@ -62,7 +73,7 @@ while True:
     for x in word:
         answerList.append('_ ')
     #gives spaces and other common non-letters as givens
-    givens = (' ', '-', '.') #this is a tuple; ordered and unchanging
+    givens = (' ', '-', '.', '?', '!', ',') #this is a tuple; ordered and unchanging
     for x in givens:
         if x in word:
             i = word.find(x)
@@ -84,12 +95,15 @@ while True:
             print("you win!")
             break
         
-    
         guess = input("Player 2, guess a letter: ")
-        
+        guess = guess.casefold() #make everything lower case so that it works
         
         # the idea here is that we check if the character is in the word, then finds the position of the character in the word, which corresponds to that position in the list
         # change the "_ " to the character to reveal it, then loop back to the Beginning
+        
+        if len(guess) > 1 or guess not in letters:
+            print("don't guess multiple letters or non-letters thats above my pay grade")
+            continue
         if guess in word:
             i = word.find(guess)
             while i > -1:
@@ -101,3 +115,4 @@ while True:
     if input("press y then enter to play again") != 'y':
         print("exiting program...")
         break
+        
