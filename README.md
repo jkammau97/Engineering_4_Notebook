@@ -139,3 +139,153 @@ N/A
 ### Reflection
 
 More review. I just stole the concept for my code from [W3schools](https://www.w3schools.com/python/trypython.asp?filename=demo_for_string). It's crazy to me that it works like that, but idk if that concept works for all arrays. I didn't use split because I found that it would be extremely clunky.
+
+## MSP
+
+### Assignment Description
+
+Write code for a Hangman Game.
+
+### Evidence 
+
+[Link](Python/MSP.py)
+
+```
+Man-Shaped Pinata by Bob Kammauff
+Player 1, Enter a word:
+www.github.com
+
+...
+
+cleared screen! don't scroll up!
+---┐
+
+
+
+
+
+Missed Guesses: set()
+_ _ _ . _ _ _ _ _ _ . _ _ _ 
+Player 2, guess a letter: 
+w
+---┐
+
+
+
+
+
+Missed Guesses: set()
+w w w . _ _ _ _ _ _ . _ _ _ 
+Player 2, guess a letter: 
+ww
+don't guess multiple letters or non-letters thats above my pay grade
+---┐
+
+
+
+
+
+Missed Guesses: set()
+w w w . _ _ _ _ _ _ . _ _ _ 
+Player 2, guess a letter: 
+g
+---┐
+
+
+
+
+
+Missed Guesses: set()
+w w w . g _ _ _ _ _ . _ _ _ 
+Player 2, guess a letter: 
+i
+---┐
+
+
+
+
+
+Missed Guesses: set()
+w w w . g i _ _ _ _ . _ _ _ 
+Player 2, guess a letter: 
+t
+---┐
+
+
+
+
+
+Missed Guesses: set()
+w w w . g i t _ _ _ . _ _ _ 
+Player 2, guess a letter: 
+h
+---┐
+
+
+
+
+
+Missed Guesses: set()
+w w w . g i t h _ _ . _ _ _ 
+Player 2, guess a letter: 
+u
+---┐
+
+
+
+
+
+Missed Guesses: set()
+w w w . g i t h u _ . _ _ _ 
+Player 2, guess a letter: 
+b
+---┐
+
+
+
+
+
+Missed Guesses: set()
+w w w . g i t h u b . _ _ _ 
+Player 2, guess a letter: 
+c
+---┐
+
+
+
+
+
+Missed Guesses: set()
+w w w . g i t h u b . c _ _ 
+Player 2, guess a letter: 
+o
+---┐
+
+
+
+
+
+Missed Guesses: set()
+w w w . g i t h u b . c o _ 
+Player 2, guess a letter: 
+m
+---┐
+
+
+
+
+
+Missed Guesses: set()
+w w w . g i t h u b . c o m 
+you win!
+The correct answer was: www.github.com
+press y then enter to play again
+```
+
+### Wiring
+N/A
+### Reflection
+
+Had to learn about all the different types of arrays that python uses and what they're good for. using a set for missed guesses gives it built-in ignoring guesses already made.
+
+
