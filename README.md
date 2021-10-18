@@ -1,44 +1,24 @@
 # Engineering_4_Notebook
 Engineering Notebook for 2021-22 school year
+<details>
+  
+  windows+shift+'s' to screenshot
+  
+  <img src= "https://i2.wp.com/creapills.com/wp-content/uploads/2018/03/30-photos-absurdes-banques-dimages-23.jpg?resize=800%2C536&ssl=1" alt="Me when I use toilet paper rolls as binoculars" width="1000" height="70">
+  
+  I didn't ask you to document hello_world.py or dice_roller.py. I'll start off with an example for dice_roller.py, and then you will reflect on calculator.py.
 
-windows+shift+'s' to screenshot
-
-<img src= "https://i2.wp.com/creapills.com/wp-content/uploads/2018/03/30-photos-absurdes-banques-dimages-23.jpg?resize=800%2C536&ssl=1" alt="Me when I use toilet paper rolls as binoculars" width="1000" height="70">
-
-I didn't ask you to document hello_world.py or dice_roller.py. I'll start off with an example for dice_roller.py, and then you will reflect on calculator.py.
-
+</details>
+  
 ## Table of Contents
-* [Basics](#Basics)
 * [Python_Dice_Roller](#PythonDiceRoller)
 * [Python_Calculator](#Python_Calculator)
 * [Quadratic_Solver](#Quadratic_Solver)
 * [Strings_and_Loops](#Strings_and_Loops)
+* [MSP](#MSP)
 ---
 
-## Basics
-You can delete this section from your own personal readme. 
-
-### Assignment Description
-
-Write your assignment description here. It should be at least a few sentences.
-
-### Evidence 
-
-Pictures / Gifs of your work should go here.  You need to communicate what your thing does. For code only assignments like the Python calculator, include a screenshot of the output of the code.
-
-### Wiring
-
-This may not be applicable to all assignments. Anything where you wire something up, include the wiring diagram here.
-
-### Reflection
-
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience?  Your ultimate goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
-
-** Don't forget to **COMMENT YOUR CODE** before you upload to Github!
-
 ## Python_Dice_Roller
-
-Okay so I am giving you a freebie so you have an example of the kind of reflections that I want. I'll start you off with an example for dice_roller.py, then its up to you to start your reflections with the Python calculator and all subsequent assignments. You can delete this section from your personal readme. 
 
 ### Assignment Description
 
@@ -138,9 +118,11 @@ N/A
 
 ### Reflection
 
-More review. I just stole the concept for my code from [W3schools](https://www.w3schools.com/python/trypython.asp?filename=demo_for_string). It's crazy to me that it works like that, but idk if that concept works for all arrays. I didn't use split because I found that it would be extremely clunky.
+More review. I just stole the concept for my code from [W3schools](https://www.w3schools.com/python/trypython.asp?filename=demo_for_string). It's crazy to me that it works like that, but idk if that concept works for all arrays. I didn't use `string.split()` like it said to in the assignment description because I found that it was unnessesary, especially for trying to cut down the amount of lines on the code.
 
 ## MSP
+
+(Man-Shaped Piñata)
 
 ### Assignment Description
 
@@ -283,9 +265,13 @@ press y then enter to play again
 ```
 
 ### Wiring
+
 N/A
+
 ### Reflection
 
 Had to learn about all the different types of arrays that python uses and what they're good for. using a set for missed guesses gives it built-in ignoring guesses already made.
+
+I was also having trouble because I accidentaly created an infinite `While` loop and it was causing the IDE to glitch and get stuck after the "guess a letter". It was confusing because it was making simple print functions not output anything, so I was stuck debugging for a while. Thankfully I figured out I forgot to add 1.
 
 
