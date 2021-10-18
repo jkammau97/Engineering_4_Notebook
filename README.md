@@ -11,37 +11,11 @@ Engineering Notebook for 2021-22 school year
 </details>
   
 ## Table of Contents
-* [Python_Dice_Roller](#PythonDiceRoller)
 * [Python_Calculator](#Python_Calculator)
 * [Quadratic_Solver](#Quadratic_Solver)
 * [Strings_and_Loops](#Strings_and_Loops)
 * [MSP](#MSP)
 ---
-
-## Python_Dice_Roller
-
-### Assignment Description
-
-The purpose of this assignment was to create a program that can automatically roll dice. The program also took user input to decide whether another dice should be rolled, or if the program should exit. The spicy version added complexity by asking the user to specify the number of sides on the dice and the number of dice to be rolled at a time. The user was then asked whether they wanted to roll again with the same settings, change the settings, or exit the program. 
-
-### Evidence 
-
-Vanilla version:
-
-![Screenshot 2021-09-10 3 15 26 PM](https://user-images.githubusercontent.com/89222808/133513775-a3eafb43-f836-4e4f-8aa6-e28ca584901f.png)
-
-Spicy version:
-
-![Screenshot 2021-09-10 3 18 38 PM](https://user-images.githubusercontent.com/89222808/133513750-727cdb6c-1c27-4c8a-83d4-50ea9136a221.png)
-
-### Wiring
-
-N/A
-
-### Reflection
-
-This assignment was relatively simple, but was challenging because I had not coded in Python for several months. I learned that I could import parts of toolboxes without importing the entire thing, but that changes the syntax of how I call the function later. I also learned about using a while loop to control whether a user wants to exit the program. For the spicy version, I needed to use nested loops. Python determines what is inside a loop by the indent level of each line of text, rather than brackets like some other coding styles. That means I need to be really careful with my tabs!
-
 
 ## Python_Calculator
 
@@ -57,21 +31,22 @@ This assignment was relatively simple, but was challenging because I had not cod
 > print("Modulo:\t\t" + doMath(a,b,5))
 > ```
 
+Math has to be done within ONE function called `doMath(x, y, z)`
 ### Evidence 
 Vanilla version:
 
-[<img src="Media/calculator.PNG" alt="calculator.PNG" width="" height="">](Python/automatic_dice_roller.py)
+[<img src="Media/calculator.PNG" alt="calculator.PNG" width="" height="">](Python/calculator.py)
 
 Spicy version:
 
-[<img src="Media/calculator_spicy.PNG" alt="calculator_spicy.PNG" width="" height="">](Python/automatic_dice_roller_spicy.py)
+[<img src="Media/calculator_spicy.PNG" alt="calculator_spicy.PNG" width="" height="">](Python/calculator_spicy.py)
 
 ### Wiring
 N/A
 
 ### Reflection
 
-Had a very easy time figuring this out. Had to end up commenting my code later on.
+Had a very easy time figuring this out. The function simply returns the result based upon what number is inputted for `z`. Converting the input into an integer is important so that it doesn't crash. I already knew that `%` was the modulo sign. The spicy version returns the factorials of both numbers as well.
 
 ## Quadratic_Solver
 
@@ -95,7 +70,7 @@ N/A
 
 ### Reflection
 
-Had to remind myself how lists work in python. Just used a barebones approach to them, and i'll remember more about it later. I also had a problem where the variables were strings instead of integers. Just had to convert the inputs to ints using `int()`.
+Had to remind myself how lists work in python. I don't like how it outputs the brackets as well, but it's not a big deal so there's no reason to change it. I also had a problem where the variables were strings instead of integers. Just had to convert the inputs to ints using `int()`.
 
 ## Strings_and_Loops 
 
@@ -118,7 +93,7 @@ N/A
 
 ### Reflection
 
-More review. I just stole the concept for my code from [W3schools](https://www.w3schools.com/python/trypython.asp?filename=demo_for_string). It's crazy to me that it works like that, but idk if that concept works for all arrays. I didn't use `string.split()` like it said to in the assignment description because I found that it was unnessesary, especially for trying to cut down the amount of lines on the code.
+More review. I just stole the concept for my code from [W3schools](https://www.w3schools.com/python/trypython.asp?filename=demo_for_string). It's crazy to me that it works like that, but idk if that concept works for all arrays (future me has come back to say that it doesn't work like I thought it would :/ ) I didn't use `string.split()` like it said to in the assignment description because I found that it was unnessesary, especially for trying to cut down the amount of lines on the code.
 
 ## MSP
 
