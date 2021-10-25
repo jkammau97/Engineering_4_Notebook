@@ -21,17 +21,22 @@ Engineering Notebook for 2021-22 school year
 
 ### Assignment Description
 
-> Write a python_calculator.py program that gives you the sum, difference, quotient, and modulo of the two numbers.  The program asks the user for two numbers and then runs them through one function, five different times.  The last five lines of the program should look something like this:
-> 
-> ```python3
-> print("Sum:\t\t" + doMath(a,b,1))
-> print("Difference:\t" + doMath(a,b,2))
-> print("Product:\t" + doMath(a,b,3))
-> print("Quotient:\t" + doMath(a,b,4))
-> print("Modulo:\t\t" + doMath(a,b,5))
-> ```
+Write a calculator program that gives you the sum, difference, quotient, and modulo of two numbers entered by the user. Code should include the following:
+
+```python3
+print("Sum:\t\t" + doMath(a,b,1))
+print("Difference:\t" + doMath(a,b,2))
+print("Product:\t" + doMath(a,b,3))
+print("Quotient:\t" + doMath(a,b,4))
+print("Modulo:\t\t" + doMath(a,b,5))
+```
 
 Math has to be done within ONE function called `doMath(x, y, z)`
+
+the z value determines what result is returned
+
+the spicy version also gives the factorials of both numbers.
+
 ### Evidence 
 Vanilla version:
 
@@ -52,13 +57,7 @@ Had a very easy time figuring this out. The function simply returns the result b
 
 ### Assignment Description
 
-> Requirements for the program.  Read carefully:
-> 
-> The program sends the three coefficients to a function 
-> The function calculates the discriminant for the quadratic
-> If the discriminant is negative, the user gets a message that there are no real roots
-> If the discriminant is zero or positive, the function returns an array of the two roots.  The program then prints the two roots.  This occurs outside of the function.
-> After the roots are displayed, ask the user if they want to run another set of roots, or if they want to quit (this is similar to your previous assignment -- reuse that code!)
+The user inputs three coefficients of a quadratic to a function that calculates the roots for the quadratic, then prints those roots(if there are any).
 
 ### Evidence 
 
@@ -76,12 +75,9 @@ Had to remind myself how lists work in python. I don't like how it outputs the b
 
 ### Assignment Description
 
-> Write a program that asks the user to type a simple sentence.  The program then takes that sentence and splits it (using the split() function) into an array of words.  The program then loops through that array of words using a for loop.  For each word, the program then loops through the letters in the word (another for loop) and prints them to the screen.  At the end of each word, the program prints a minus sign.
-> 
-> Spicy Version (Optional):
-> No additional requirements, but try to collapse your code into as few lines as possible (other than commented intro lines). You probably want to get your code working first, then look for ways to combine lines where possible. Mr. Miller's code is 4 lines long. Try to tie or beat that!
-> 
-> Note: Writing code into as few lines as possible isn't always good for code readability. In real life, you want to find a balance between being concise but understandable for other coders. For now though, this is a good challenge!
+user inputs a simple sentence, and the program takes the sentence and prints it with each letter on a new line. After each word, print a "-"
+
+Spicy Version: Write code in as few lines as possible
 
 ### Evidence 
 
