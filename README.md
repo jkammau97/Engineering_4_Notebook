@@ -15,6 +15,8 @@ Engineering Notebook for 2021-22 school year
 * [Quadratic_Solver](#Quadratic_Solver)
 * [Strings_and_Loops](#Strings_and_Loops)
 * [MSP](#MSP)
+* [CAD](#CAD)
+  * [Onshape_Power_Tools](#Onshape_Power_Tools)
 ---
 
 ## Python_Calculator
@@ -246,3 +248,18 @@ Had to learn about all the different types of arrays that python uses and what t
 I was also having trouble because I accidentaly created an infinite `While` loop and it was causing the IDE to glitch and get stuck after the "guess a letter". It was confusing because it was making simple print functions not output anything, so I was stuck debugging for a while. Thankfully I figured out I forgot to add 1.
 
 
+## CAD
+
+## Onshape_Power_Tools
+
+### Assignment Description
+
+Playing With Legos! 3D model a lego so that you can use configurations to generate many different types of legos! We used variables to define the amount of rows and column of studs each lego would have, and then used a shell in the design to make them hollow. We then had to use the legos we designed in assemblies to make different lego creations, namely, a duck! We then made an instruction manual on how to assemble the duck.
+
+### Evidence 
+
+[<img src="Media/Duck_Drawing.png" alt="Duck_Drawing.png" width="400" height="">](https://cvilleschools.onshape.com/documents/0cd5fab2f09c50364ab1d1e9/w/fb544f64e8e0a477230acc25/e/81a8228943e6e4ff0aef9016) [<img src="Media/Exploded_Duck.png" alt="Duck_Drawing.png" width="400" height="">](https://cvilleschools.onshape.com/documents/0cd5fab2f09c50364ab1d1e9/w/fb544f64e8e0a477230acc25/e/81a8228943e6e4ff0aef9016)
+
+### Reflection
+
+The different uses for drawings are very cool. We had only ever used them for laser cutting, but using them to create actual Engineering Drawings is pretty cool.
