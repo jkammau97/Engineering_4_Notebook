@@ -15,6 +15,7 @@ Engineering Notebook for 2021-22 school year
 * [Quadratic_Solver](#Quadratic_Solver)
 * [Strings_and_Loops](#Strings_and_Loops)
 * [MSP](#MSP)
+* [RPi_GPIO_Pin_Introduction](#RPi_GPIO_Pin_Introduction)
 * [CAD](#CAD)
   * [Onshape_Power_Tools](#Onshape_Power_Tools)
 ---
@@ -247,7 +248,7 @@ Had to learn about all the different types of arrays that python uses and what t
 
 I was also having trouble because I accidentaly created an infinite `While` loop and it was causing the IDE to glitch and get stuck after the "guess a letter". It was confusing because it was making simple print functions not output anything, so I was stuck debugging for a while. Thankfully I figured out I forgot to add 1.
 
-## RPi GPIO Pin Introduction
+## RPi_GPIO_Pin_Introduction
 
 ### Assignment Description
 
@@ -255,13 +256,17 @@ Write Code to blink leds on raspberry pi in order to learn how the pi handles GP
 
 ### Evidence 
 
+[<img src="Media/GPIO_Evidence.gif" alt="GPIO_Evidence.gif" width="" height="">](Python/gpio_led.py)
 
+*click on gif to go to the code*
 
 ### Wiring
 
+<img src="Media/GPIO_Wiring.jpg" alt="GPIO_Wiring.jpg" width="400" height="">
+
 ### Reflection
 
-
+Had to remember that in this class, our primary educator is google, so I should consult that as often as possible. I was also having a lot of problems with navigating nano in the pi itself. Don't use `ctrl+z` in it, it doesn't work. I still have yet to get copying from the code in nano to work yet. My notes has it as `ctrl+alt` but that doesn't seem right... maybe `ctrl+alt+c`?
 
 ## CAD
 
