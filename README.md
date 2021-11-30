@@ -268,6 +268,8 @@ Write Code to blink leds on raspberry pi in order to learn how the pi handles GP
 
 Had to remember that in this class, our primary educator is google, so I should consult that as often as possible. I was also having a lot of problems with navigating nano in the pi itself. Don't use `ctrl+z` in it, it doesn't work. I still have yet to get copying from the code in nano to work yet. My notes has it as `ctrl+alt` but that doesn't seem right... maybe `ctrl+alt+c`?
 
+`stty columns "# of columns" rows "# of rows"` allows you to tell the pi how big your screen is so that the text doesn't overlap.
+
 ## CAD
 
 ## Onshape_Power_Tools
