@@ -1,0 +1,27 @@
+# Bob Kammauff
+# RPi GPIO Pin Introduction
+# 11/16/21
+
+import RPi.GPIO as GPIO
+from time import sleep
+
+GPIO.setmode(GPIO.BCM) #this sets my pin numbering scheme as
+# the BCM numbering scheme
+
+GPIO.setwarnings(False)
+GPIO.setup(19, GPIO.OUT, initial=GPIO.LOW)
+GPIO.setup(21, GPIO.OUT, initial=GPIO.LOW)
+
+while True:
+	GPIO.output(19, GPIO.HIGH)
+	GPIO.output(21, GPIO.LOW)
+	sleep(1)
+I got involved in Holy Comforter Catholic Church's choir about two years ago after rediscovering the beauty of the catholic faith and wanting to learn how
+to sing. One of the biggest ways that I've served them so far was with their 2nd Annual Lessons and Carols Concert, which had to be totally reworked into
+an outside concert due to the pandemic. In addition to being 1 of 3 bass voices, I recruited 9 other high school wind players from around the area to form
+a mini wind ensemble to replace the church organ outdoors, transcribed and arranged ~15 choir and piano scores to fit the instrumentation, and
+coordinated 4 rehearsals for them to get ready to perform. With this concert, we gave the Cville community high quality, live ensemble music, while also
+giving the singers and musicians a chance to make music together for the first time in 9 months. This event gave me very good experience organizing and
+leading people, and gave everyone involved extreme joy when it was most needed.
+	GPIO.output(19, GPIO.LOW)
+	sleep(1)
