@@ -247,6 +247,21 @@ Had to learn about all the different types of arrays that python uses and what t
 
 I was also having trouble because I accidentaly created an infinite `While` loop and it was causing the IDE to glitch and get stuck after the "guess a letter". It was confusing because it was making simple print functions not output anything, so I was stuck debugging for a while. Thankfully I figured out I forgot to add 1.
 
+## RPi GPIO Pin Introduction
+
+### Assignment Description
+
+Write Code to blink leds on raspberry pi in order to learn how the pi handles GPIO pins.
+
+### Evidence 
+
+
+
+### Wiring
+
+### Reflection
+
+
 
 ## CAD
 
