@@ -270,7 +270,28 @@ Had to remember that in this class, our primary educator is google, so I should 
 
 `stty columns "# of columns" rows "# of rows"` allows you to tell the pi how big your screen is so that the text doesn't overlap.
 
-## CAD
+
+## Safe_Shutdown_Button
+
+### Assignment Description
+
+Wire a button to our pi and then use constantly running code that allows us to press the button to reboot it, and long-press to shut it down.
+
+### Evidence 
+
+[Here's](Media/Safe_shutdown_proof.mp4) a link to the video. It was a little too long to make into a gif
+
+### Wiring
+
+>Wiring: Install your button on the breadboard. Make sure the notches on the bottom are lined up with the trench in the middle of the breadboard. For the wiring, wire from the pin of your choice to one leg of the button, and from the other leg of the button to ground. You want a button press to connect the pin to ground.
+
+The pin I'm using is 26
+
+### Reflection
+
+I can see this technique to run code on startup will be very helpful for when we do Pi in the sky. This is also a new way of wiring up a button for me.
+
+# CAD
 
 ## Onshape_Power_Tools
 
