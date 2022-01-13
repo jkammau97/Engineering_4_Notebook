@@ -12,6 +12,7 @@
 # Author: Tony DiCola
 # License: Public Domain
 import time
+import math
 
 # Import the LSM303 module.
 import Adafruit_LSM303
@@ -44,6 +45,7 @@ disp = Adafruit_SSD1306.SSD1306_128_64(rst=RST, i2c_address=0x3d)
 # Initialize library.
 disp.begin()
 
+
 while True:
     # Clear display.
     disp.clear()
@@ -51,8 +53,8 @@ while True:
 
     # Create blank image for drawing.
     # Make sure to create image with mode '1' for 1-bit color.
-    width = disp.width
-    height = disp.height
+    width = disp.width #128
+    height = disp.height #64
     image = Image.new('1', (width, height))
 
     # Get drawing object to draw on image.
@@ -75,9 +77,10 @@ while True:
     #font = ImageFont.truetype('Minecraftia.ttf', 8)
 
     # Write 3 lines of text.
-    draw.text((x, top),    'X: ' + str(accel_x),  font=font, fill=255)
-    draw.text((x, top+20), 'Y: ' + str(accel_y), font=font, fill=255)
-    draw.text((x, top+40), 'Z: ' + str(accel_z), font=font, fill=255)
+    draw.text((10, 0), 'ACCEL DATA', font=font, fill=255)
+    draw.text((10, 16),  'X: ' + str(math.floor(accel_x*981/1024)), font=font, fill=255)
+    draw.text((10, 32), 'Y: ' + str(math.floor(accel_y*981/1024)), font=font, fill=255)
+    draw.text((10, 48), 'Z: ' + str(math.floor(accel_z*981/1024)), font=font, fill=255)
 
     # Display image.
     disp.image(image)
