@@ -87,4 +87,4 @@ while True:
     disp.display()
     
     # Wait half a second and repeat.
-    time.sleep(0.5)
+    time.sleep(.1)
