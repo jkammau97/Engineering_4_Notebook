@@ -16,6 +16,7 @@ Engineering Notebook for 2021-22 school year
 * [Strings_and_Loops](#Strings_and_Loops)
 * [MSP](#MSP)
 * [RPi_GPIO_Pin_Introduction](#RPi_GPIO_Pin_Introduction)
+* [GPIO_Pins_-_I2C](#GPIO_Pins_-_I2C)
 * [CAD](#CAD)
   * [Onshape_Power_Tools](#Onshape_Power_Tools)
 ---
@@ -290,6 +291,18 @@ The pin I'm using is 26
 ### Reflection
 
 I can see this technique to run code on startup will be very helpful for when we do Pi in the sky. This is also a new way of wiring up a button for me. I did not know that the raspberry pi had built-in pull-up/down functionality.
+
+## GPIO_Pins_-_I2C
+
+### Assignment Description
+
+First, we had to install the libraries required for the LSM303 accelerometer and the SSD1306 OLED display. Then we ran some example code from the libraries' repositories. Then, using that code as reference, I needed to combine the functions of both devices and print acceleration data from the accelerometer onto the OLED display.
+
+### Evidence
+
+### Wiring
+
+### Reflection
 
 # CAD
 
