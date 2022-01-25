@@ -45,23 +45,39 @@ disp = Adafruit_SSD1306.SSD1306_128_64(rst=RST, i2c_address=0x3d)
 # Initialize library.
 disp.begin()
 
+# Clear display.
+disp.clear()
+disp.display()
+# Having this only at the beginning allows it to not have to clear the screen every time.
+
+# Create blank image for drawing.
+# Make sure to create image with mode '1' for 1-bit color.
+width = disp.width #128
+height = disp.height #64
+
+image = Image.new('1', (width, height))
+
+# Get drawing object to draw on image.
+draw = ImageDraw.Draw(image)
+
+# Testing how the images overlap
+draw.ellipse((10, 10, 30, 30), outline=255, fill=255)
+
+disp.image(image)
+disp.display()
+
+time.sleep(1)
 
 while True:
-    # Clear display.
-    disp.clear()
-    disp.display()
-
     # Create blank image for drawing.
     # Make sure to create image with mode '1' for 1-bit color.
-    width = disp.width #128
-    height = disp.height #64
     image = Image.new('1', (width, height))
 
     # Get drawing object to draw on image.
     draw = ImageDraw.Draw(image)
 
     # Draw a black filled box to clear the image.
-    draw.rectangle((0,0,width,height), outline=0, fill=0)
+    # draw.rectangle((0,0,width,height), outline=0, fill=0)
 
     # Load default font.
     font = ImageFont.load_default()
@@ -87,4 +103,4 @@ while True:
     disp.display()
     
     # Wait half a second and repeat.
-    time.sleep(.1)
+    time.sleep(.5)
