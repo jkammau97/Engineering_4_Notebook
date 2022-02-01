@@ -300,9 +300,22 @@ First, we had to install the libraries required for the LSM303 accelerometer and
 
 ### Evidence
 
+
+[<img src="Media/GPIOI2CProof.gif" alt="GPIOI2CProof.gif" width="" height="">](Python/GPIOPinsI2C.py)
+
+*click on gif to go to the code*
+
 ### Wiring
 
+> Let's start with the accelerometer.  Grab yourself an LSM303 and pop it onto a breadboard.  Using your T-Cobbler, attach Vin on the accelerometer to 3.3 V on your Pi, connect GND to GND, SDA to SDA, and SCL to SCL. 
+
+> Okay, time for the display.  Grab yourself an SSD1306 OLED display.  Shut down your pi, then plug the display into the breadboard and wire it up.  Vin to 3.3 V, GND to GND, Data to SDA, Clk to SCL, and Rst to pin 24 of your Pi.
+
+*-From the page for the assignment*
+
 ### Reflection
+
+It wasn't too hard to combine the two codes together, but it was the first time actually making the code directly on the Github website and then actually pulling it down onto my raspberry pi. I was having trouble with the refresh rate of the OLED screen; for the LCD screens we've used before, the characters for each segment of the screen would stay up until they were told to be replaced, so you had to print blank characters after the values or clear the screen every time, which made the picture flickery. I was trying to see if a similar feature of only overwriting part of the screen was possible on the OLED screen, but the way the code works is that a frame is generated, and then it's displayed; the screen has to all be changed at the same time. However, this actually meant the solution was just to print the values and not worry about clearing the screen; the way it uploads each frame automatically does that for you.
 
 # CAD
 
